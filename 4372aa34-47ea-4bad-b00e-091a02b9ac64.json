@@ -1,0 +1,60 @@
+{
+  "name": "UrlLauncher",
+  "description": "A button for launch a website",
+  "author": "",
+  "library": "urllauncher",
+  "meta": {
+    "type": "other"
+  },
+  "properties": {
+    "sections": [
+      {
+        "type": "header",
+        "order": 0,
+        "parent": "qw-pe-dropzone0-0",
+        "ref": "header1",
+        "label": "Settings"
+      }
+    ],
+    "settings": [
+      {
+        "type": "string",
+        "expression": "optional",
+        "defaultValue": "steelblue",
+        "order": 2,
+        "parent": "header1",
+        "ref": "background",
+        "label": "Background Color"
+      },
+      {
+        "type": "string",
+        "expression": "optional",
+        "defaultValue": "Type some here...",
+        "order": 1,
+        "parent": "header1",
+        "ref": "text",
+        "label": "Text"
+      },
+      {
+        "type": "string",
+        "expression": "optional",
+        "defaultValue": "#FFFFFF",
+        "order": 3,
+        "parent": "header1",
+        "ref": "color",
+        "label": "Text Color"
+      },
+      {
+        "component": "textarea",
+        "defaultValue": "",
+        "rows": 2,
+        "maxlength": 512,
+        "order": 0,
+        "parent": "header1",
+        "ref": "url",
+        "label": "Url",
+        "type": "string"
+      }
+    ]
+  }
+}

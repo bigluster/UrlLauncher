@@ -1,0 +1,8 @@
+{
+  "name": "urllauncher",
+  "description": "A button for launch a website",
+  "type": "widget-library",
+  "widgets": [
+    "4372aa34-47ea-4bad-b00e-091a02b9ac64"
+  ]
+}
